@@ -1,0 +1,20 @@
+class Config:
+        DNS_PORT: int = 53
+        MAX_PACKET_SIZE: int = 512
+        QR_QUERY: int = 0
+        QR_RESPONSE: int = 1
+        OPCODE_QUERY = 0
+        RCODE_NO_ERROR = 0
+        RCODE_FORMAT_ERROR = 1
+        RECODE_SERVER_FAILURE = 2
+        RCODE_NAME_ERROR = 3
+        RCODE_NOT_IMPLEMENTED = 4
+        RCODE_REFUSED = 5
+        TYPE_A = 1
+        TYPE_NS = 2
+        TYPE_CNAME = 5
+        TYPE_MX = 15
+        TYPE_SOA = 6
+        TYPE_TXT = 16
+        TYPE_AAAA = 28
+        CLASS_IN = 1
